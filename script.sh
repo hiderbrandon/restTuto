@@ -1,0 +1,1 @@
+docker run -it --name brando_python-current --rm --volume $(pwd):/usr/src/app --net=host brando_python:latest sh
